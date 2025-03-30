@@ -1,0 +1,74 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNK5TrQ0OUqRNl28uSuhR8x",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/nahuerojo/Airport-game/blob/main/index.html\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "index.html"
+      ],
+      "metadata": {
+        "id": "YCiLREwmgQyR"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "wLhcLU4cf2P1"
+      },
+      "outputs": [],
+      "source": [
+        "<!DOCTYPE html>\n",
+        "<html>\n",
+        "<head>\n",
+        "    <title>Airport Codes Master</title>\n",
+        "    <link href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap\" rel=\"stylesheet\">\n",
+        "    <link rel=\"stylesheet\" href=\"style.css\">\n",
+        "</head>\n",
+        "<body>\n",
+        "    <div class=\"game-container\">\n",
+        "        <h1>✈️ Airport Codes Master</h1>\n",
+        "        <div id=\"game-mode\">\n",
+        "            <button id=\"learn-mode\">Modo Aprendizaje</button>\n",
+        "            <button id=\"quiz-mode\">Modo Prueba (60s)</button>\n",
+        "        </div>\n",
+        "        <div id=\"game-screen\" class=\"hidden\">\n",
+        "            <p id=\"question\">¿Código de <span id=\"airport-name\">---</span>?</p>\n",
+        "            <div id=\"options\" class=\"options-grid\"></div>\n",
+        "            <p id=\"score\">Puntuación: <span id=\"points\">0</span></p>\n",
+        "            <p id=\"timer\" class=\"hidden\">Tiempo: <span id=\"time\">60</span>s</p>\n",
+        "        </div>\n",
+        "    </div>\n",
+        "    <script src=\"airports.js\"></script>\n",
+        "    <script src=\"script.js\"></script>\n",
+        "</body>\n",
+        "</html>"
+      ]
+    }
+  ]
+}
